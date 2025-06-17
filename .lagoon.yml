@@ -4,7 +4,7 @@ project: drupalnext-base
 
 routes:
   autogenerate:
-    oauthProtected: false
+    oauthProtected: true
 
 tasks:
   pre-rollout:
@@ -41,6 +41,6 @@ environments:
     routes:
       - nginx:
         - "test.172.18.0.240.nip.io":
-            oauthProtected: true
+            oauthProtected: false
           
 
