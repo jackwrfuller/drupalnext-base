@@ -41,6 +41,6 @@ environments:
     routes:
       - nginx:
         - "test.172.18.0.240.nip.io":
-            oauthProtected: false
+            oauthProtected: true
           
 
