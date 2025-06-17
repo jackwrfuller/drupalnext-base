@@ -37,9 +37,10 @@ tasks:
         shell: bash
 
 environments:
-  main:
-    cronjobs:
-      - name: drush hourly cron
-        schedule: "M * * * *"
-        command: drush cron
-        service: cli
+  o2p:
+    routes:
+      - nginx:
+        - "test.172.18.0.240.nip.io":
+          oauthProtected: true
+          
+
