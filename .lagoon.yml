@@ -36,11 +36,11 @@ tasks:
         service: cli
         shell: bash
 
-environments:
-  o2p:
-    routes:
-      - nginx:
-        - "test.172.18.0.240.nip.io":
-            oauthProtected: true
+#environments:
+#  o2p:
+#    routes:
+#      - nginx:
+#        - "test.172.18.0.240.nip.io":
+#            oauthProtected: true
           
 
