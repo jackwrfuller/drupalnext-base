@@ -2,9 +2,9 @@ docker-compose-yaml: docker-compose.yml
 
 project: drupalnext-base
 
-routes:
-  autogenerate:
-    oauthProtected: true
+#routes:
+#  autogenerate:
+#    oauthProtected: true
 
 tasks:
   pre-rollout:
