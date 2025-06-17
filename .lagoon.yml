@@ -4,7 +4,7 @@ project: drupalnext-base
 
 routes:
   autogenerate:
-    oauthEnabled: false
+    oauthProtected: false
 
 tasks:
   pre-rollout:
