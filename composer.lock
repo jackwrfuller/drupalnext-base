@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "44d69466f844edef58cd291e578f1de0",
+    "content-hash": "71b1adcf57a974b5a4dc47b2dc5e5925",
     "packages": [
         {
             "name": "amazeeio/drupal_integrations",
@@ -2218,6 +2218,54 @@
                 "source": "https://www.drupal.org/project/coder"
             },
             "time": "2024-11-28T23:14:29+00:00"
+        },
+        {
+            "name": "drupal/consumers",
+            "version": "1.19.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/consumers.git",
+                "reference": "8.x-1.19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/consumers-8.x-1.19.zip",
+                "reference": "8.x-1.19",
+                "shasum": "3af0f9866524c40e78924343c319720e1d17c2ef"
+            },
+            "require": {
+                "drupal/core": "^9.5 || ^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.19",
+                    "datestamp": "1721753030",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "e0ipso",
+                    "homepage": "https://www.drupal.org/user/550110"
+                },
+                {
+                    "name": "eojthebrave",
+                    "homepage": "https://www.drupal.org/user/79230"
+                }
+            ],
+            "description": "Declare all the consumers of your API.",
+            "homepage": "https://www.drupal.org/project/consumers",
+            "support": {
+                "source": "https://git.drupalcode.org/project/consumers"
+            }
         },
         {
             "name": "drupal/core",
