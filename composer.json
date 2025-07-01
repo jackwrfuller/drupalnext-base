@@ -28,6 +28,7 @@
         "drupal/lagoon_logs": "3.0.1",
         "drupal/miniorange_oauth_client": "^4.0",
         "drupal/mysql57": "1.0.0",
+        "drupal/oauth2_client": "^4.1",
         "drush/drush": "13.6.0",
         "mglaman/composer-drupal-lenient": "1.0.7"
     },

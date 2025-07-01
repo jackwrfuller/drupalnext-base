@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "71b1adcf57a974b5a4dc47b2dc5e5925",
+    "content-hash": "5d16fcd5be7aa75ad4f9f00e10823dba",
     "packages": [
         {
             "name": "amazeeio/drupal_integrations",
@@ -2889,6 +2889,70 @@
             }
         },
         {
+            "name": "drupal/oauth2_client",
+            "version": "4.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/oauth2_client.git",
+                "reference": "4.1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/oauth2_client-4.1.3.zip",
+                "reference": "4.1.3",
+                "shasum": "4d387aeb667c3bf8021ae6ab932f3bae86bb703e"
+            },
+            "require": {
+                "drupal/core": "^10.2 || ^11",
+                "league/oauth2-client": "^2.6",
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "drupal/key": "^1.17"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "4.1.3",
+                    "datestamp": "1738776277",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Shawn Duncan (FatherShawn)",
+                    "homepage": "https://www.drupal.org/u/fathershawn",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "dashohoxha",
+                    "homepage": "https://www.drupal.org/u/dashohoxha",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "perelesnyk",
+                    "homepage": "https://www.drupal.org/user/2605196"
+                },
+                {
+                    "name": "voleger",
+                    "homepage": "https://www.drupal.org/user/3260314"
+                }
+            ],
+            "description": "Provides OAuth2 client functionality.",
+            "homepage": "https://drupal.org/project/oauth2_client",
+            "support": {
+                "source": "https://cgit.drupalcode.org/oauth2_client",
+                "issues": "https://drupal.org/project/issues/oauth2_client"
+            }
+        },
+        {
             "name": "drush/drush",
             "version": "13.6.0",
             "source": {
@@ -3785,6 +3849,71 @@
                 }
             ],
             "time": "2025-05-20T12:55:37+00:00"
+        },
+        {
+            "name": "league/oauth2-client",
+            "version": "2.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/oauth2-client.git",
+                "reference": "9df2924ca644736c835fc60466a3a60390d334f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/9df2924ca644736c835fc60466a3a60390d334f9",
+                "reference": "9df2924ca644736c835fc60466a3a60390d334f9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "^6.5.8 || ^7.4.5",
+                "php": "^7.1 || >=8.0.0 <8.5.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.3.5",
+                "php-parallel-lint/php-parallel-lint": "^1.4",
+                "phpunit/phpunit": "^7 || ^8 || ^9 || ^10 || ^11",
+                "squizlabs/php_codesniffer": "^3.11"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\OAuth2\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Bilbie",
+                    "email": "hello@alexbilbie.com",
+                    "homepage": "http://www.alexbilbie.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Woody Gilk",
+                    "homepage": "https://github.com/shadowhand",
+                    "role": "Contributor"
+                }
+            ],
+            "description": "OAuth 2.0 Client Library",
+            "keywords": [
+                "Authentication",
+                "SSO",
+                "authorization",
+                "identity",
+                "idp",
+                "oauth",
+                "oauth2",
+                "single sign on"
+            ],
+            "support": {
+                "issues": "https://github.com/thephpleague/oauth2-client/issues",
+                "source": "https://github.com/thephpleague/oauth2-client/tree/2.8.1"
+            },
+            "time": "2025-02-26T04:37:30+00:00"
         },
         {
             "name": "lullabot/mink-selenium2-driver",
