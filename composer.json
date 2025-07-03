@@ -29,6 +29,7 @@
         "drupal/miniorange_oauth_client": "^4.0",
         "drupal/mysql57": "1.0.0",
         "drupal/oauth2_client": "^4.1",
+        "drupal/openid_connect": "^3.0@alpha",
         "drush/drush": "13.6.0",
         "mglaman/composer-drupal-lenient": "1.0.7"
     },
